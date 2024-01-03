@@ -1,0 +1,30 @@
+.App {
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #1565c0,
+    #b92b27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #1565c0,
+    #b92b27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background: #544a7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffd452,
+    #544a7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffd452,
+    #544a7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
